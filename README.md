@@ -1,4 +1,4 @@
-# Tweets-clustering-classification
+# Tweets Clustering Classification
 Tweets clustering classification using supervised and unsupervised learning algorithms
 
 - K-Means Clustering
