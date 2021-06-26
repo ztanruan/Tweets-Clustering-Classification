@@ -9,6 +9,13 @@ K-Means has the advantage that it’s pretty fast, as all we’re really doing i
 
 On the other hand, K-Means has a couple of disadvantages. Firstly, you have to select how many groups/classes there are. This isn’t always trivial and ideally with a clustering algorithm we’d want it to figure those out for us because the point of it is to gain some insight from the data. K-means also starts with a random choice of cluster centers and therefore it may yield different clustering results on different runs of the algorithm. Thus, the results may not be repeatable and lack consistency. Other cluster methods are more consistent.
 
+![Graph1](https://user-images.githubusercontent.com/28322834/123497734-39513e80-d5fd-11eb-9306-1eae58288598.png)
+
+
+
+![Graph2](https://user-images.githubusercontent.com/28322834/123497738-3eae8900-d5fd-11eb-9359-cbcb81616689.png)
+
+
 - Mean-Shift Clustering
 
 Mean shift clustering is a sliding-window-based algorithm that attempts to find dense areas of data points. It is a centroid-based algorithm meaning that the goal is to locate the center points of each group/class, which works by updating candidates for center points to be the mean of the points within the sliding-window. These candidate windows are then filtered in a post-processing stage to eliminate near-duplicates, forming the final set of center points and their corresponding groups. Check out the graphic below for an illustration.
